@@ -1,0 +1,464 @@
+body{
+    background-color: #000;
+}
+.header_logo{
+    cursor: pointer;
+
+
+}
+
+.agv_header{
+    display: flex;
+    
+    padding: 12px;
+    
+  
+    
+}
+.agv_header i{
+    cursor: pointer;
+}
+
+.header_button i {
+    padding: 0 5px;
+}
+
+.header_button {
+  
+    color: #fff ;
+    width: 50%;
+   
+}
+
+.header_button1 {
+   
+    color: #fff ;
+    width: 50%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.header_button1 i {
+    padding: 0 5px;
+}
+.header_logo {
+    text-align: center;
+}
+.nav_agv_header {
+    background-color: #444;
+    width: 100%;
+    height: 46px;
+    
+    display: flex;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    margin: -1px
+    
+    
+}
+
+.mobile_brands {
+    height: 12px;
+    margin-top: 10px;
+}
+.nav_mabile_div {
+    width: 25%;
+    text-align: start;
+    padding: 10px;
+}
+.nav_menu_div {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.nav_menu_div P {
+    color: #fff;
+    font-size: 12px;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300px;
+   
+}
+.nav_menu_div{
+     margin-left: 96px;
+     margin-top: -12px;
+     padding: 10px 10px ;
+     gap:30px
+    
+}
+.div_nav_icons{
+    width: 25%;
+    text-align: end;
+    padding: 10px;
+   
+}
+.div_nav_icons i{
+    color: #fff; 
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.banner_div {
+    background-image: url(agu-mainheader.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.div_inner_banner {
+    width: 30%;
+    padding: 5%;
+}
+.div_inner_banner h1 {
+    color: #fff;
+}
+
+.div_inner_banner p {
+    color: #fff;
+}
+.banner_button {
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+    cursor: pointer;
+}
+.agv-second-center{
+    width: 100%;
+    height: 600px;
+  
+    background-color: #212121;
+    margin-top: 0px;
+    position: relative;
+    color: white;
+    
+}
+.first{
+ width: 305px;
+ height: 100%;
+ position: absolute;
+ padding-left: 150px;
+ top: 100px;
+}
+
+.first h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    
+}
+
+.second-image:hover{
+    transform: scale(1.05);
+  
+}
+.agv-second-center img{
+    cursor: pointer;
+}
+
+
+.agv-second-center h5{
+    font-size: 19px;
+    line-height: 172%;
+    font-weight: 330;
+}
+.agv-second-center ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.agv-second-center li{
+    display: inline-block;
+    margin: 0px 25px 20px 0px;
+    border-bottom: 1px solid whitesmoke;
+}
+.second{
+    width: 305px;
+    height: 100%;
+    position: absolute;
+    padding-left:589px;
+    top: 100px;
+    
+}
+.second-image{
+    height:242px;
+width: 406px;
+
+position: relative;
+}
+
+.third{
+    width: 305px;
+    height: 100%;
+    position: absolute;
+    padding-left:1011px;
+    top: 100px;
+}
+.agv-second-center li:hover{
+    border-bottom: 1px solid yellow;
+    cursor: pointer;
+}
+.agv-third-center{
+    width: 100%;
+    height: 550px;
+  
+    background-color:white;
+    margin-top: 0px;
+   
+    color:#212121;
+    }
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+      
+        font-size: 15px;
+       font-weight: 400;
+        text-align: center;
+        overflow-x: hidden;
+        margin-left: 42px;
+        letter-spacing: 1px;
+      }
+      .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto  ;
+        background-color: white;
+        padding-left: 125px;
+        margin-top: 35px;
+       
+       
+
+      }
+      .third-center-image{
+        text-align: center;
+        height: 248px;
+        width: 232px;
+      }
+      .agv-third-center p{
+        text-align: center;
+      padding-top: 120px;
+      font-size: 20px;
+      }
+      .heading{
+      font-weight: 700;
+      }
+      .footer-above{
+        width: 100%;
+        height: 300px;
+      position:relative;
+        background-color:#f5f0ed;
+        margin-top: 0px;
+       }
+       .first-footer{
+        width: 250px;
+        height: 120px;
+        position:relative ;
+        padding-left: 327px;
+        top: 49px;
+        color:gray;
+       }
+       .footer-image-first{
+        height: 50px;
+        width: 60px;
+       
+         padding-left: 41px;
+cursor: pointer;
+       }
+       .first-footer p{
+        font-size: 15;
+        line-height: 1.5;
+       }
+       .footer-above h3{
+   font-weight: 100;
+ 
+       }
+       .footer-span{
+       padding-left: 23px;
+       }
+       .second-footer{
+        width: 313px;
+        height: 201px;
+        position: relative;
+        padding-left: 690px;
+        top: -59px;
+        color:gray;
+       }
+       .footer-image-second{
+        height: 50px;
+        width: 60px;
+       
+         padding-left: 41px;
+            
+       }
+      .third-footer{
+        width: 313px;
+        height: 201px;
+        position: relative;
+        padding-left: 1089px;
+        top: -263px;
+        color:gray;
+       }
+       .third-footer>.footer-image-first{
+        padding-left: 18px;
+       }
+       .third-footer h3{
+        padding-left: 19px;
+       }
+       .third-footer h3 span{
+        padding-left: 10px;
+       }
+    .agv-footer{
+        width: 100%;
+        height: 450px;
+      position:relative;
+        background-color:#2d2c2c;
+        margin-top: 0px;
+        cursor: pointer;
+       }
+       .footer-first{
+        width: 200px;
+        position: absolute;
+        margin-top: 35px;
+        padding-left: 92px;
+       
+       }
+    .agv-footer ul li a{
+        cursor: pointer;
+    }
+       .agv-footer h5{
+        color: #9b9b9b;
+       } 
+      .agv-footer ul {
+     
+        list-style: none;
+        text-decoration: none;
+    
+        padding-left: 0px;
+        padding-top: 10px;
+      
+      }
+      .agv-footer a{
+        color:#fff;
+       
+        text-decoration: none;
+        
+        font-size: 13px;
+        font-weight: 400;
+      }
+      .footer-second{
+        width: 200px;
+        position: absolute;
+        margin-top: 35px;
+        padding-left: 413px;
+
+       }
+       .footer-third{
+        width: 200px;
+        position: absolute;
+        margin-top: 35px;
+        padding-left: 763px;
+       }
+       .footer-fourth{
+        width: 537px;
+        position: absolute;
+        margin-top: 35px;
+        padding-left: 969px;
+       }
+
+       .footer-fourth h1{
+        color: white;
+        font-size: 18px;
+        margin-left: 107px;
+       }
+       .footer-fourth p{
+        margin-left:103px;
+       color:#f5f0ed;
+       font-size:18px;
+       }
+       .footer-fourth>.footer-input{
+        padding-left: 105px;
+       
+        
+       }
+       .footer-input input{
+        background-color: #212121;
+        border-bottom: 3px solid white;
+        width: 313px;
+        height: 48px;
+    
+       }
+       .input-below{
+        border: 1px solid white;
+        width: 24px;
+        height: 19px;
+        margin-top: -78px;
+        margin-left: 72px;
+       }
+       .input-below p{
+   font-size: 10px;
+
+       }
+      .input-below strong{
+        font-size: 20px;
+      }
+      .footer-fourth h2{
+        margin-top: 55px;
+        color: yellow;
+        font-size: 14px;
+        padding-left: 103px;
+      }
+      .footer-fourth>.subscribe-button{
+        border: 1px solid yellow ;
+        background-color: yellow;
+        width: 170px;
+        margin-left: 102px;
+        cursor: pointer;
+      }
+      .footer-fourth>.subscribe-button p{
+        color: black;
+        margin-left: 25px;
+      }
+      .footer-below{
+        width: 100%;
+        height: 250px;
+      position:relative;
+        background-color:#000;
+        margin-top: 0px;
+       }
+       .dainese-footer-below{
+        width:205px;
+        margin-left:613px;
+        margin-top:65px;
+       }
+       .footer-icons i{
+        color: white;
+        padding: 0px 0px 0px 15px;
+       }
+       .footer-icons{
+padding-left:629px ;
+padding-top:19px ;
+       }
+       .footer-below ul li{
+        list-style: none;
+        
+       }
+       .footer-below  ul {
+display: flex;
+margin-left: 934px;
+
+       }
+       .footer-below  ul li a {
+        color: white;
+        padding: 0px 21px 0px 0px;
+       }
+      
+       .footer-below p{
+        MARGIN-LEFT: 69px;
+        font-size: 13px;
+        line-height: 140%;
+        font-weight: 400;
+        color: #fff;
+       }
+
+       .footer-icons{
+        cursor: pointer;
+       }
